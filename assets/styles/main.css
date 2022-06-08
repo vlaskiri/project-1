@@ -15,6 +15,10 @@ body {
     font-family: 'Proxima Nova Thin';
 }
 
+h2 {
+    color: white;
+}
+
 .main-image1 {
     text-align: center;
     margin-top: 50px;
@@ -33,11 +37,30 @@ body {
     top: 136px;
     left: 530px;
     right: 530px;
-    gap: 80px;
+    gap: 65px;
     font-family: 'El Messiri', sans-serif;
 }
 
-.front-image2, .front-image3 {
+.front-image1, .front-image2, .front-image3, .front-image4 {
     width: 28px;
     height: 14px;
+}
+
+.front-bigspan {
+    width: 590px;
+    position: absolute;
+    top: 70px;
+    font-size: 64px;
+    text-align: center;
+    line-height: 140%;
+}
+
+.session {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 42px;
+    font-family: 'El Messiri', sans-serif;
+    gap: 45px;
 }
