@@ -1,0 +1,39 @@
+.header-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 312px;
+    margin-right: 310px;
+}
+
+.registration {
+    background-color: #018ABE;
+    width: 155px;
+    height: 36px;
+    margin-top: 13px;
+    padding: 9px 15px;
+    border-radius: 3px;
+}
+
+.registration a {
+    font-family: "Proxima Nova";
+    text-align: center;
+    font-size: 13px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding-top: 21px;
+}
+
+.header-image-2 {
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    left: 326px;
+    top: 44px;
+}
