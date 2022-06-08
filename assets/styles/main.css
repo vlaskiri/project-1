@@ -14,3 +14,30 @@ body {
     width: 1920px;
     font-family: 'Proxima Nova Thin';
 }
+
+.main-image1 {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.front-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: 400px;*/
+    color: white;
+    font-size: 24px;
+    margin: 0px auto;
+    position: absolute;
+    top: 136px;
+    left: 530px;
+    right: 530px;
+    gap: 80px;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.front-image2, .front-image3 {
+    width: 28px;
+    height: 14px;
+}
