@@ -29,7 +29,6 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*width: 400px;*/
     color: white;
     font-size: 24px;
     margin: 0px auto;
@@ -68,5 +67,65 @@ h2 {
 
 .session-variation {
     display: flex;
+    width: 1300px;
+    height: 550px;
+    gap: 25px;
+    margin: 0px auto;
+    margin-bottom: 150px;
+    color: white;
+    font-family: 'El Messiri', sans-serif;
+}
 
+.variation {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.standart {
+    width: 420px;
+    height: 540px;
+    background-image: url("../images/session.png");
+    position: relative;
+}
+
+.standart span {
+    position: absolute;
+    top: 455px;
+    left: 50px;
+    font-size: 24px;
+
+}
+
+.standart::after {
+    content: '';
+    margin-top: 540px;
+    padding: 5px 0 5px 0;
+    background-color: #018ABE;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+}
+
+.pair {
+    border: 2px solid red;
+    width: 420px;
+    height: 260px;
+}
+
+.pregnant {
+    border: 2px solid red;
+    width: 420px;
+    height: 260px;
+}
+
+.under-water {
+    border: 2px solid red;
+    width: 420px;
+    height: 260px;
+}
+
+.photoshoot {
+    border: 2px solid red;
+    width: 420px;
+    height: 260px;
 }
