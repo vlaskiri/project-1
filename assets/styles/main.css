@@ -94,7 +94,21 @@ h2 {
     top: 455px;
     left: 50px;
     font-size: 24px;
+}
 
+.pair span, .pregnant span {
+    position: absolute;
+    top: 195px;
+    left: 50px;
+    font-size: 24px;
+}
+
+.under-water span, .photoshoot span {
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    font-size: 24px;
+    width: 340px;
 }
 
 .standart::after {
@@ -107,25 +121,33 @@ h2 {
 }
 
 .pair {
-    border: 2px solid red;
+    background-image: url("../images/session1.png");
+    background-repeat: no-repeat;
     width: 420px;
     height: 260px;
+    position: relative;
 }
 
 .pregnant {
-    border: 2px solid red;
+    background-image: url("../images/session1.png");
+    background-repeat: no-repeat;
     width: 420px;
     height: 260px;
+    position: relative;
 }
 
 .under-water {
-    border: 2px solid red;
+    background-image: url("../images/session1.png");
+    background-repeat: no-repeat;
     width: 420px;
     height: 260px;
+    position: relative;
 }
 
 .photoshoot {
-    border: 2px solid red;
+    background-image: url("../images/session1.png");
+    background-repeat: no-repeat;
     width: 420px;
     height: 260px;
+    position: relative;
 }
