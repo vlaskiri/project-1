@@ -12,7 +12,7 @@ body {
     position: relative;
     background-color: #162831;
     width: 1920px;
-    font-family: 'Proxima Nova Thin';
+    font-family: 'Proxima Nova Thin', serif;
 }
 
 h2 {
@@ -31,7 +31,7 @@ h2 {
     align-items: center;
     color: white;
     font-size: 24px;
-    margin: 0px auto;
+    margin: 0 auto;
     position: absolute;
     top: 136px;
     left: 530px;
@@ -54,7 +54,7 @@ h2 {
     line-height: 140%;
 }
 
-.session-text {
+.session-text, .reviews-title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,8 +70,7 @@ h2 {
     width: 1300px;
     height: 550px;
     gap: 25px;
-    margin: 0px auto;
-    margin-bottom: 150px;
+    margin: 0 auto;
     color: white;
     font-family: 'El Messiri', sans-serif;
 }
@@ -120,7 +119,7 @@ h2 {
     display: flex;
 }
 
-.pair {
+.pair, .pregnant, .under-water, .photoshoot {
     background-image: url("../images/session1.png");
     background-repeat: no-repeat;
     width: 420px;
@@ -128,26 +127,41 @@ h2 {
     position: relative;
 }
 
-.pregnant {
-    background-image: url("../images/session1.png");
-    background-repeat: no-repeat;
-    width: 420px;
-    height: 260px;
-    position: relative;
+.reviews1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 640px;
+    height: 350px;
+    background-color: #018ABE;
 }
 
-.under-water {
-    background-image: url("../images/session1.png");
-    background-repeat: no-repeat;
-    width: 420px;
-    height: 260px;
-    position: relative;
+.reviews1 h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 50px 60px 20px;
 }
 
-.photoshoot {
-    background-image: url("../images/session1.png");
-    background-repeat: no-repeat;
-    width: 420px;
-    height: 260px;
-    position: relative;
+.reviews-p {
+    color: white;
+    margin: 0 60px;
+    line-height: 140%;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto 150px;
+    width: 100px;
+}
+
+.slider-reviews {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    display: flex;
+    opacity: 0.4;
 }
