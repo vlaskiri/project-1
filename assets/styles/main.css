@@ -140,6 +140,7 @@ h2 {
     width: 640px;
     height: 350px;
     background-color: #018ABE;
+    border-radius: 10px;
 }
 
 .reviews1 h3 {
@@ -150,9 +151,15 @@ h2 {
 }
 
 .description {
+    width: 520px;
+    min-height: 200px;
     color: white;
-    margin: 0 60px;
+    margin: auto 60px;
     line-height: 140%;
+}
+
+.description p {
+    margin-bottom: 20px;
 }
 
 .slider {
@@ -170,4 +177,31 @@ h2 {
     border-radius: 3px;
     display: flex;
     opacity: 0.4;
+}
+
+.slider-reviews1 {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    display: flex;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 100px;
+}
+
+.info h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.mb {
+    margin-bottom: 150px;
 }
