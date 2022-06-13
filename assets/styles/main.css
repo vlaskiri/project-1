@@ -11,7 +11,7 @@
 body {
     position: relative;
     background-color: #162831;
-    width: 1920px;
+    max-width: 1920px;
     font-family: 'Proxima Nova Thin', serif;
 }
 
@@ -40,7 +40,8 @@ h2 {
     font-family: 'El Messiri', sans-serif;
 }
 
-.front-image1, .front-image2, .front-image3, .front-image4 {
+.front-image1, .front-image2 {
+    transform: scale(1, -1);
     width: 28px;
     height: 14px;
 }
@@ -54,7 +55,7 @@ h2 {
     line-height: 140%;
 }
 
-.session-text, .reviews-title {
+.h2-title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,7 +87,17 @@ h2 {
     height: 540px;
     background-image: url("../images/session.png");
     position: relative;
+    border-radius: 10px;
 }
+
+.standart-line {
+    margin-top: 530px;
+    padding: 5px 0 5px 0;
+    background-color: #018ABE;
+    border-radius: 0 0 10px 10px;
+    display: none;
+}
+
 
 .standart span {
     position: absolute;
@@ -110,13 +121,8 @@ h2 {
     width: 340px;
 }
 
-.standart::after {
-    content: '';
-    margin-top: 540px;
-    padding: 5px 0 5px 0;
-    background-color: #018ABE;
-    border-radius: 0 0 10px 10px;
-    display: flex;
+.standart:hover .standart-line{
+    display: block;
 }
 
 .pair, .pregnant, .under-water, .photoshoot {
@@ -143,7 +149,7 @@ h2 {
     margin: 50px 60px 20px;
 }
 
-.reviews-p {
+.description {
     color: white;
     margin: 0 60px;
     line-height: 140%;

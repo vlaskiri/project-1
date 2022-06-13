@@ -4,14 +4,14 @@
     font-size: 18px;
     text-align: center;
     padding-top: 30px;
-    margin-left: 312px;
-    margin-right: 310px;
+    margin: 0 75px;
+    /*min-width: 1240px;*/
 }
 
 .registration {
     background-color: #018ABE;
-    width: 155px;
-    height: 36px;
+    min-width: 155px;
+    min-height: 36px;
     margin-top: 13px;
     padding: 9px 15px;
     border-radius: 3px;
@@ -20,6 +20,7 @@
 .registration a {
     text-align: center;
     font-size: 13px;
+    font-weight: 600;
 }
 
 .navigation {
@@ -27,12 +28,5 @@
     justify-content: space-between;
     gap: 60px;
     padding-top: 21px;
-}
-
-.header-image-2 {
-    position: absolute;
-    width: 32px;
-    height: 22px;
-    left: 326px;
-    top: 44px;
+    margin: 0 10px;
 }
