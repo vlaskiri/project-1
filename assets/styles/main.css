@@ -21,7 +21,7 @@ h2 {
 
 .main-image1 {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px auto 150px;
     position: relative;
 }
 
@@ -31,11 +31,10 @@ h2 {
     align-items: center;
     color: white;
     font-size: 24px;
-    margin: 0 auto;
     position: absolute;
     top: 136px;
-    left: 530px;
-    right: 530px;
+    left: 430px;
+    right: 430px;
     gap: 65px;
     font-family: 'El Messiri', sans-serif;
 }
@@ -59,7 +58,6 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
     margin-bottom: 100px;
     font-size: 42px;
     font-family: 'El Messiri', sans-serif;
@@ -71,7 +69,7 @@ h2 {
     width: 1300px;
     height: 550px;
     gap: 25px;
-    margin: 0 auto;
+    margin: 0 auto 150px;
     color: white;
     font-family: 'El Messiri', sans-serif;
 }
@@ -150,7 +148,7 @@ h2 {
     margin: 50px 60px 20px;
 }
 
-.description {
+.description-reviews1 {
     width: 520px;
     min-height: 200px;
     color: white;
@@ -160,6 +158,14 @@ h2 {
 
 .description p {
     margin-bottom: 20px;
+}
+
+.description-info {
+    width: 470px;
+    min-height: 170px;
+    color: white;
+    /*margin: auto 60px;*/
+    line-height: 140%;
 }
 
 .slider {
@@ -191,7 +197,8 @@ h2 {
 .info {
     display: flex;
     justify-content: space-between;
-    margin: 0 20px 100px;
+    margin: 0 180px 100px;
+    align-items: center;
 }
 
 .info h3 {
@@ -201,7 +208,58 @@ h2 {
     margin-bottom: 30px;
 }
 
-
 .mb {
     margin-bottom: 150px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.img-price-decor {
+    width: 18px;
+    height: 9px;
+    margin-right: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text-price span {
+    font-size: 18px;
+    line-height: 140%;
+    color: white;
+    width: 270px;
+    height: 25px;
+}
+
+.currency {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.certificate {
+    display: flex;
+    flex-direction: column;
+}
+
+.certificate span {
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 140%;
+    color: white;
+    margin-top: 30px;
 }
