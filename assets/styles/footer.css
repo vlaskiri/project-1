@@ -1,0 +1,20 @@
+.creator {
+    width: 1300px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 90px auto 0;
+    color: white;
+}
+
+.years {
+    font-family: "Proxima Nova Thin", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.author {
+    font-family: "Proxima Nova Thin", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}

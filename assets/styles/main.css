@@ -15,10 +15,6 @@ body {
     font-family: 'Proxima Nova Thin', serif;
 }
 
-h2 {
-    color: white;
-}
-
 .main-image1 {
     text-align: center;
     margin: 50px auto 150px;
@@ -96,7 +92,6 @@ h2 {
     display: none;
 }
 
-
 .standart span {
     position: absolute;
     top: 455px;
@@ -164,7 +159,6 @@ h2 {
     width: 470px;
     min-height: 170px;
     color: white;
-    /*margin: auto 60px;*/
     line-height: 140%;
 }
 
@@ -199,6 +193,12 @@ h2 {
     justify-content: space-between;
     margin: 0 180px 100px;
     align-items: center;
+    gap: 90px;
+}
+
+.image-info img {
+    height: 400px;
+    width: auto;
 }
 
 .info h3 {
@@ -206,6 +206,13 @@ h2 {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 30px;
+}
+
+.description-info p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 140%;
+    font-family: "Proxima Nova Thin", sans-serif;
 }
 
 .mb {
@@ -262,4 +269,74 @@ h2 {
     line-height: 140%;
     color: white;
     margin-top: 30px;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.maps img {
+    width: 860px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.address-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.waterpool {
+    width: 400px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #018ABE;
+    border-radius: 10px;
+    padding: 35px 45px;
+}
+
+.wp-title {
+    font-family: "El Messiri", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.wp-address {
+    display: flex;
+    gap: 20px;
+}
+
+.pl {
+    padding-left: 3px;
+    gap: 25px;
+}
+
+.wp-description {
+    font-size: 14px;
+    font-family: "Proxima Nova Thin", sans-serif;
+    color: white;
+    padding-top: 3px;
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 155px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.click span {
+    font-size: 13px;
+    color: #018ABE;
+    font-weight: 600;
+    font-family: "Proxima Nova Thin", sans-serif;
 }
