@@ -92,21 +92,46 @@ body {
     display: none;
 }
 
-.standart span {
+.standart a {
     position: absolute;
     top: 455px;
     left: 50px;
     font-size: 24px;
 }
 
-.pair span, .pregnant span {
+.pair, .pregnant, .under-water, .photoshoot {
+    background-image: url("../images/session1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 260px;
+    position: relative;
+}
+
+.pair-line, .pregnant-line {
+    margin-top: 250px;
+    padding: 5px 0 5px 0;
+    background-color: #018ABE;
+    border-radius: 0 0 10px 10px;
+    display: none;
+}
+
+.pair a, .pregnant a {
     position: absolute;
     top: 195px;
     left: 50px;
     font-size: 24px;
 }
 
-.under-water span, .photoshoot span {
+.under-water-line, .photoshoot-line {
+    margin-top: 250px;
+    padding: 5px 0 5px 0;
+    background-color: #018ABE;
+    border-radius: 0 0 10px 10px;
+    display: none;
+}
+
+.under-water a, .photoshoot a {
     position: absolute;
     top: 170px;
     left: 50px;
@@ -114,16 +139,12 @@ body {
     width: 340px;
 }
 
-.standart:hover .standart-line{
+.standart:hover .standart-line,
+.pair:hover .pair-line,
+.pregnant:hover .pregnant-line,
+.under-water:hover .under-water-line,
+.photoshoot:hover .photoshoot-line {
     display: block;
-}
-
-.pair, .pregnant, .under-water, .photoshoot {
-    background-image: url("../images/session1.png");
-    background-repeat: no-repeat;
-    width: 420px;
-    height: 260px;
-    position: relative;
 }
 
 .reviews1 {
@@ -277,9 +298,9 @@ body {
     gap: 50px;
 }
 
-.maps img {
+.img {
     width: 860px;
-    height: 600px;
+    height: 605px;
     border-radius: 10px;
 }
 

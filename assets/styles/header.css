@@ -2,16 +2,14 @@
     display: flex;
     justify-content: space-between;
     font-size: 18px;
-    text-align: center;
-    padding-top: 30px;
-    margin: 0 75px;
+    align-items: center;
+    margin: 30px 25px 0;
 }
 
 .registration {
     background-color: #018ABE;
-    min-width: 155px;
-    min-height: 36px;
-    margin-top: 13px;
+    display: flex;
+    align-items: center;
     padding: 9px 15px;
     border-radius: 3px;
 }
@@ -25,7 +23,7 @@
 .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 60px;
-    padding-top: 21px;
     margin: 0 10px;
 }
