@@ -1,0 +1,33 @@
+/*.....Media for header.....*/
+@media (max-width: 1110px) {
+    .header-title {
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+        align-items: center;
+        margin: 30px 40px 0;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 830px) {
+    .navigation {
+        display: none;
+    }
+}
+
+/*.....Media for main.....*/
+@media (max-width: 1300px) {
+    .main-image1 {
+        margin: 50px auto 150px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+}

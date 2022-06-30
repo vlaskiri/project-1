@@ -3,7 +3,7 @@
     justify-content: space-between;
     font-size: 18px;
     align-items: center;
-    margin: 30px 25px 0;
+    margin: 30px 70px 0;
 }
 
 .registration {
@@ -25,5 +25,4 @@
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-    margin: 0 10px;
 }

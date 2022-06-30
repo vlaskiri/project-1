@@ -19,6 +19,11 @@ body {
     text-align: center;
     margin: 50px auto 150px;
     position: relative;
+    max-width: 100%;
+}
+
+.main-image1 img {
+    max-width: 100%;
 }
 
 .front-title {
