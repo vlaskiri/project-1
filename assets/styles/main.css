@@ -11,48 +11,61 @@
 body {
     position: relative;
     background-color: #162831;
-    max-width: 1920px;
     font-family: 'Proxima Nova Thin', serif;
+    padding: 30px 15px 0 15px;
 }
 
-.main-image1 {
+main {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.main-image {
     text-align: center;
     margin: 50px auto 150px;
     position: relative;
     max-width: 100%;
 }
 
-.main-image1 img {
+.main-image img {
     max-width: 100%;
 }
 
 .front-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
     font-size: 24px;
+    width: 100%;
     position: absolute;
-    top: 136px;
-    left: 430px;
-    right: 430px;
-    gap: 65px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: 'El Messiri', sans-serif;
 }
 
-.front-image1, .front-image2 {
+.front-title-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    font-size: 24px;
+    margin-bottom: 80px;
+    padding: 0 15px;
+}
+
+.front-image-one, .front-image-two {
     transform: scale(1, -1);
     width: 28px;
     height: 14px;
 }
 
-.front-bigspan {
-    width: 590px;
-    position: absolute;
-    top: 70px;
+.front-title-bottom {
+    display: block;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 590px;
     font-size: 64px;
     text-align: center;
-    line-height: 140%;
+    line-height: 1.4;
 }
 
 .h2-title {
@@ -152,7 +165,7 @@ body {
     display: block;
 }
 
-.reviews1 {
+.reviews-one {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -162,14 +175,14 @@ body {
     border-radius: 10px;
 }
 
-.reviews1 h3 {
+.reviews-one h3 {
     color: white;
     font-size: 20px;
     font-weight: 700;
     margin: 50px 60px 20px;
 }
 
-.description-reviews1 {
+.description-reviews-one {
     width: 520px;
     min-height: 200px;
     color: white;
@@ -205,7 +218,7 @@ body {
     opacity: 0.4;
 }
 
-.slider-reviews1 {
+.slider-reviews-one {
     content: '';
     width: 15px;
     height: 15px;
