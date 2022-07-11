@@ -9,9 +9,6 @@
     }
 
     .navigation {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         gap: 20px;
     }
 }
@@ -59,18 +56,80 @@
     .h2-title {
         font-size: 35px;
         gap: 35px;
+        margin-bottom: 60px;
     }
 }
 @media (max-width: 430px) {
     .h2-title {
         font-size: 25px;
         gap: 15px;
+        margin-bottom: 10px;
     }
 }
 
 /*......session-variation.......*/
 @media (max-width: 1188px) {
-    .
+    .session-rs a {
+        padding-bottom: 65px;
+    }
+    .variation {
+        margin-top: 20px;
+    }
+    .standart:hover .standart-line,
+    .pair:hover .pair-line,
+    .pregnant:hover .pregnant-line,
+    .under-water:hover .under-water-line,
+    .photoshoot:hover .photoshoot-line {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .session-variation {
+        flex-direction: column;
+        max-height: 1300px;
+    }
+    .session-variation a {
+        justify-content: center;
+    }
+    .standart {
+        width: 100%;
+        background-position: center;
+    }
+    .session-rs {
+        background-position: center;
+    }
+    .session-rs a {
+        padding-bottom: 20px;
+    }
+    .variation {
+        width: 100%;
+        margin-top: 0;
+        flex-direction: row;
+    }
+}
+@media (max-width: 768px) {
+    .session-variation, .variation {
+        flex-direction: column;
+    }
+    .standart {
+        background-image: url("../images/session1.png");
+        background-size: 100%;
+        min-height: 260px;
+    }
+}
+@media (max-width: 430px) {
+    .session-variation, .variation {
+        gap: 5px;
+    }
+    .session-variation a {
+        padding: 0 40px 40px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 358px) {
+    .session-rs, .standart {
+        margin-bottom: -50px;
+    }
 }
 
 /*........reviews.......*/
