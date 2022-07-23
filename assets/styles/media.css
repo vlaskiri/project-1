@@ -7,7 +7,6 @@
         align-items: center;
         margin: 30px 40px 0;
     }
-
     .navigation {
         gap: 20px;
     }
@@ -21,8 +20,8 @@
 /*.....Media for MAIN.....*/
 /*........main-image........*/
 @media (max-width: 1300px) {
-    .main-image1 {
-        margin: 50px auto 150px;
+    .main-image {
+        margin: 30px auto 50px;
         position: relative;
         display: flex;
         justify-content: center;
@@ -61,41 +60,30 @@
 }
 @media (max-width: 430px) {
     .h2-title {
-        font-size: 25px;
+        font-size: 22px;
         gap: 15px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 }
 
 /*......session-variation.......*/
 @media (max-width: 1188px) {
-    .session-rs a {
-        padding-bottom: 65px;
-    }
-    .variation {
-        margin-top: 20px;
-    }
     .standart:hover .standart-line,
-    .pair:hover .pair-line,
-    .pregnant:hover .pregnant-line,
-    .under-water:hover .under-water-line,
-    .photoshoot:hover .photoshoot-line {
+    .session-rs:hover .session-rs-line {
         display: none;
     }
 }
 @media (max-width: 1024px) {
     .session-variation {
         flex-direction: column;
-        max-height: 1300px;
     }
     .session-variation a {
         justify-content: center;
     }
     .standart {
+        align-self: center;
         width: 100%;
-        background-position: center;
-    }
-    .session-rs {
+        min-height: 260px;
         background-position: center;
     }
     .session-rs a {
@@ -103,7 +91,6 @@
     }
     .variation {
         width: 100%;
-        margin-top: 0;
         flex-direction: row;
     }
 }
@@ -111,39 +98,73 @@
     .session-variation, .variation {
         flex-direction: column;
     }
+    .session-rs {
+        background-position: center;
+        border-radius: 10px;
+    }
     .standart {
         background-image: url("../images/session1.png");
-        background-size: 100%;
         min-height: 260px;
-    }
-}
-@media (max-width: 430px) {
-    .session-variation, .variation {
-        gap: 5px;
-    }
-    .session-variation a {
-        padding: 0 40px 40px;
-        font-size: 18px;
-    }
-}
-@media (max-width: 358px) {
-    .session-rs, .standart {
-        margin-bottom: -50px;
+        width: 100%;
     }
 }
 
-/*........reviews.......*/
-@media (max-width: 768px) {
-    .reviews-one {
-        width: 50%;
+/*........info.......*/
+@media (max-width: 992px) {
+    .info h3 {
+        margin-bottom: 20px;
     }
-    .reviews-one h3 {
+    .description-info p {
         font-size: 14px;
-        width: 50%;
-        text-align: center;
     }
-    .description-reviews-one {
-        width: 80%;
+}
+@media (max-width: 768px) {
+    .description-info {
+        max-width: 100%;
+    }
+    .image-info {
+        max-width: 100%;
+    }
+    .info {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .info:not(:first-child) {
+        flex-direction: column;
+    }
+    .info h3 {
+        font-size: 20px;
+    }
+    .info-rs {
+        gap: 25px;
+        margin-bottom: 50px;
+    }
+}
 
+/*........price.......*/
+@media (max-width: 992px) {
+    .certificate {
+        max-width: 100%;
+    }
+    .price {
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+    .text {
+        max-width: 100%;
+        flex-direction: row;
+    }
+    .text-price {
+        max-width: 20%;
+    }
+    .currency {
+        max-width: 100%;
+        flex-direction: row;
+        gap: 100px;
+    }
+    .text-currency {
+        max-width: 20%;
+        font-size: 18px;
+        text-align: center;
     }
 }

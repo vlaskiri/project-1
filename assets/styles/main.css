@@ -7,30 +7,25 @@
     font-weight: normal;
     font-style: normal;
 }
-
 body {
     position: relative;
     background-color: #162831;
     font-family: 'Proxima Nova Thin', serif;
     padding: 30px 15px 0 15px;
 }
-
 main {
     margin: 0 auto;
     max-width: 1300px;
 }
-
 .main-image {
     text-align: center;
     margin: 50px auto 150px;
     position: relative;
     max-width: 100%;
 }
-
 .main-image img {
     max-width: 100%;
 }
-
 .front-title {
     color: white;
     font-size: 24px;
@@ -41,7 +36,6 @@ main {
     transform: translate(-50%, -50%);
     font-family: 'El Messiri', sans-serif;
 }
-
 .front-title-top {
     display: flex;
     justify-content: center;
@@ -51,13 +45,11 @@ main {
     margin-bottom: 80px;
     padding: 0 15px;
 }
-
 .front-image-one, .front-image-two {
     transform: scale(1, -1);
     width: 28px;
     height: 14px;
 }
-
 .front-title-bottom {
     display: block;
     margin: 0 auto;
@@ -67,7 +59,6 @@ main {
     text-align: center;
     line-height: 1.4;
 }
-
 .h2-title {
     display: flex;
     align-items: center;
@@ -77,7 +68,6 @@ main {
     font-family: 'El Messiri', sans-serif;
     gap: 45px;
 }
-
 .session-variation {
     max-width: 1300px;
     display: flex;
@@ -86,24 +76,21 @@ main {
     color: white;
     font-family: 'El Messiri', sans-serif;
 }
-
 .variation {
     display: flex;
     width: 50%;
     flex-direction: column;
     gap: 25px;
 }
-
 .standart {
     display: flex;
     width: 50%;
     min-height: 540px;
     background-image: url("../images/session.png");
-    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     border-radius: 10px;
 }
-
 .standart-line {
     width: 99.8%;
     margin-top: 530px;
@@ -112,17 +99,15 @@ main {
     border-radius: 0 0 10px 10px;
     display: none;
 }
-
 .session-rs {
     display: flex;
     background-image: url("../images/session1.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     min-height: 260px;
     position: relative;
 }
-
 .session-variation a {
     position: absolute;
     display: flex;
@@ -134,8 +119,7 @@ main {
     font-size: 24px;
     padding: 0 40px 30px 40px;
 }
-
-.pair-line, .pregnant-line {
+.session-rs-line {
     width: 100%;
     margin-top: 250px;
     padding: 5px 0 5px 0;
@@ -143,68 +127,45 @@ main {
     border-radius: 0 0 10px 10px;
     display: none;
 }
-
-.under-water-line, .photoshoot-line {
-    width: 100%;
-    margin-top: 250px;
-    padding: 5px 0 5px 0;
-    background-color: #018ABE;
-    border-radius: 0 0 10px 10px;
-    display: none;
-}
-
 .standart:hover .standart-line,
-.pair:hover .pair-line,
-.pregnant:hover .pregnant-line,
-.under-water:hover .under-water-line,
-.photoshoot:hover .photoshoot-line {
+.session-rs:hover .session-rs-line {
     display: block;
 }
-
 .reviews-one {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 640px;
-    height: 350px;
+    max-width: 640px;
+    min-height: 350px;
     background-color: #018ABE;
     border-radius: 10px;
 }
-
-.reviews-one h3 {
+.title-reviews {
+    display: flex;
     color: white;
     font-size: 20px;
     font-weight: 700;
     margin: 50px 60px 20px;
 }
-
 .description-reviews-one {
-    width: 520px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     min-height: 200px;
     color: white;
-    margin: 0 auto;
+    padding: 0 60px;
     line-height: 140%;
     font-size: 14px;
 }
-
-.description p {
+.description-reviews-one p {
     margin-bottom: 20px;
 }
-
-.description-info {
-    width: 470px;
-    min-height: 170px;
-    color: white;
-    line-height: 140%;
-}
-
 .slider {
     display: flex;
     justify-content: space-between;
     margin: 60px auto 150px;
     width: 100px;
 }
-
 .slider-reviews {
     content: '';
     width: 15px;
@@ -214,7 +175,6 @@ main {
     display: flex;
     opacity: 0.4;
 }
-
 .slider-reviews-one {
     content: '';
     width: 15px;
@@ -223,53 +183,66 @@ main {
     border-radius: 3px;
     display: flex;
 }
-
-.info {
+.info-rs {
+    max-width: 1100px;
+    min-height: 870px;
+    margin: 0 auto 150px;
+    gap: 100px;
     display: flex;
-    justify-content: space-between;
-    margin: 0 180px 100px;
+    flex-direction: column;
+}
+.info {
+    max-width: 100%;
+    min-height: 50%;
+    gap: 85px;
+    display: flex;
     align-items: center;
-    gap: 90px;
+    justify-content: space-between;
 }
-
-.image-info img {
-    height: 400px;
-    width: auto;
-}
-
-.info h3 {
+.description-info {
+    max-width: 40%;
     color: white;
+    line-height: 140%;
+}
+.info h3 {
+    max-width: 100%;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 30px;
 }
-
 .description-info p {
+    max-width: 100%;
     font-size: 16px;
     font-weight: 300;
     line-height: 140%;
     font-family: "Proxima Nova Thin", sans-serif;
 }
-
-.mb {
-    margin-bottom: 150px;
+.description-info p:not(:last-child) {
+    margin-bottom: 10px;
+}
+.image-info {
+    max-width: 50%;
+}
+.image-info img {
+    max-width: 100%;
 }
 
 .price {
+    max-width: 1100px;
     display: flex;
     justify-content: center;
     gap: 140px;
     align-items: center;
-    margin-bottom: 150px;
+    margin: 0 auto 150px;
 }
 
 .img-price-decor {
-    width: 18px;
-    height: 9px;
+    max-width: 18px;
     margin-right: 20px;
 }
 
 .text {
+    max-width: 33.33%;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -279,20 +252,25 @@ main {
     font-size: 18px;
     line-height: 140%;
     color: white;
-    width: 270px;
-    height: 25px;
 }
 
 .currency {
+    max-width: 33.33%;
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+.description-currency span {
+    font-size: 18px;
+    line-height: 140%;
     font-family: 'El Messiri', sans-serif;
     font-weight: 700;
     color: white;
 }
 
 .certificate {
+    max-width: 33.33%;
     display: flex;
     flex-direction: column;
 }
