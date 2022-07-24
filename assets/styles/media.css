@@ -154,3 +154,31 @@
         gap: 75px;
     }
 }
+
+/*........address....*/
+@media (max-width: 1026px) {
+    .wp-title {
+        font-size: 18px;
+    }
+}
+@media (max-width: 944px) {
+    .address {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .maps {
+        flex-basis: 100%;
+    }
+    .address-info {
+        flex-basis: 100%;
+    }
+    .waterpool {
+        align-items: center;
+        gap: 10px;
+    }
+    .wp-address {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 5px;
+    }
+}

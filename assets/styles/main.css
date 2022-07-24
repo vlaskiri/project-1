@@ -226,7 +226,6 @@ main {
 .image-info img {
     max-width: 100%;
 }
-
 .price {
     max-width: 1100px;
     min-height: 350px;
@@ -236,29 +235,24 @@ main {
     justify-content: space-between;
     align-items: center;
 }
-
 .img-price-decor {
     max-width: 18px;
     margin-right: 20px;
 }
-
 .description-currency {
     flex-basis: 50%;
     display: flex;
     flex-direction: column;
 }
-
 .table-row {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
     gap: 15px;
 }
-
 .table-row:not(:last-child) {
     margin-bottom: 30px;
 }
-
 .table-column {
     font-size: 18px;
     line-height: 140%;
@@ -266,18 +260,15 @@ main {
     font-weight: 700;
     color: white;
 }
-
 .description {
     font-family: 'Proxima Nova', sans-serif;
     font-weight: 400;
 }
-
 .certificate {
     flex-basis: 50%;
     display: flex;
     flex-direction: column;
 }
-
 .certificate span {
     text-align: center;
     font-family: 'El Messiri', sans-serif;
@@ -287,34 +278,40 @@ main {
     color: white;
     margin-top: 30px;
 }
-
 .address {
+    max-width: 1300px;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     gap: 50px;
 }
 
+.maps {
+    display: flex;
+    flex-basis: 75%;
+}
+
 .img {
-    width: 860px;
-    height: 605px;
+    display: flex;
+    flex-basis: 100%;
     border-radius: 10px;
 }
 
 .address-info {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    flex-basis: 35%;
+    gap: 15px;
 }
 
 .waterpool {
-    width: 400px;
-    height: 290px;
     display: flex;
+    flex-basis: 50%;
     flex-direction: column;
     gap: 20px;
     background-color: #018ABE;
     border-radius: 10px;
-    padding: 35px 45px;
+    padding: 30px 45px;
 }
 
 .wp-title {
@@ -330,7 +327,6 @@ main {
 
 .pl {
     padding-left: 3px;
-    gap: 25px;
 }
 
 .wp-description {
@@ -342,7 +338,7 @@ main {
 
 .click {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: white;
     width: 155px;
@@ -351,8 +347,9 @@ main {
     border-radius: 3px;
 }
 
-.click span {
+.click a {
     font-size: 13px;
+    padding: 9px 15px;
     color: #018ABE;
     font-weight: 600;
     font-family: "Proxima Nova Thin", sans-serif;
