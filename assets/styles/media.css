@@ -11,9 +11,20 @@
         gap: 20px;
     }
 }
-@media (max-width: 830px) {
+@media (max-width: 768px) {
     .navigation {
+        position: absolute;
+        right: 0;
+        top: 83px;
+        transform: translateX(100%);
+        background-color: #162831;
+        flex-direction: column;
+    }
+    .registration {
         display: none;
+    }
+    .header-burger {
+        display: flex;
     }
 }
 
@@ -81,10 +92,13 @@
         justify-content: center;
     }
     .standart {
+        background-image: url("../images/session1.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
         align-self: center;
         width: 100%;
-        min-height: 260px;
-        background-position: center;
+        height: 260px;
     }
     .session-rs a {
         padding-bottom: 20px;
@@ -102,14 +116,9 @@
         background-position: center;
         border-radius: 10px;
     }
-    .standart {
-        background-image: url("../images/session1.png");
-        min-height: 260px;
-        width: 100%;
-    }
 }
 
-/*........info.......*/
+/*........info-rs........*/
 @media (max-width: 992px) {
     .info h3 {
         margin-bottom: 20px;
@@ -168,6 +177,9 @@
     }
     .maps {
         flex-basis: 100%;
+    }
+    .img {
+        height: 30vh;
     }
     .address-info {
         flex-basis: 100%;

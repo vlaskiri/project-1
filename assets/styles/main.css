@@ -85,7 +85,7 @@ main {
 .standart {
     display: flex;
     width: 50%;
-    min-height: 540px;
+    height: 540px;
     background-image: url("../images/session.png");
     background-size: cover;
     position: relative;
@@ -97,7 +97,8 @@ main {
     padding: 5px 0 5px 0;
     background-color: #018ABE;
     border-radius: 0 0 10px 10px;
-    display: none;
+    opacity: 0;
+    transition-duration: 0.5s;
 }
 .session-rs {
     display: flex;
@@ -107,6 +108,7 @@ main {
     width: 100%;
     min-height: 260px;
     position: relative;
+
 }
 .session-variation a {
     position: absolute;
@@ -125,11 +127,12 @@ main {
     padding: 5px 0 5px 0;
     background-color: #018ABE;
     border-radius: 0 0 10px 10px;
-    display: none;
+    opacity: 0;
+    transition-duration: 0.5s;
 }
 .standart:hover .standart-line,
 .session-rs:hover .session-rs-line {
-    display: block;
+    opacity: 1;
 }
 .reviews-one {
     display: flex;
@@ -261,8 +264,13 @@ main {
     color: white;
 }
 .description {
+    display: flex;
     font-family: 'Proxima Nova', sans-serif;
     font-weight: 400;
+}
+.table-column img {
+    width: 18px;
+    height: 9px;
 }
 .certificate {
     flex-basis: 50%;
@@ -280,30 +288,25 @@ main {
 }
 .address {
     max-width: 1300px;
-    min-height: 600px;
     display: flex;
     justify-content: center;
     gap: 50px;
 }
-
 .maps {
     display: flex;
     flex-basis: 75%;
 }
-
 .img {
     display: flex;
     flex-basis: 100%;
     border-radius: 10px;
 }
-
 .address-info {
     display: flex;
     flex-direction: column;
     flex-basis: 35%;
     gap: 15px;
 }
-
 .waterpool {
     display: flex;
     flex-basis: 50%;
@@ -313,29 +316,27 @@ main {
     border-radius: 10px;
     padding: 30px 45px;
 }
-
 .wp-title {
     font-family: "El Messiri", sans-serif;
     font-weight: 700;
     font-size: 24px;
 }
-
 .wp-address {
     display: flex;
     gap: 20px;
 }
-
 .pl {
     padding-left: 3px;
 }
-
 .wp-description {
     font-size: 14px;
     font-family: "Proxima Nova Thin", sans-serif;
     color: white;
     padding-top: 3px;
 }
-
+.wp-description a{
+    font-size: 14px;
+}
 .click {
     display: flex;
     justify-content: flex-start;
@@ -346,7 +347,6 @@ main {
     margin-top: 10px;
     border-radius: 3px;
 }
-
 .click a {
     font-size: 13px;
     padding: 9px 15px;
