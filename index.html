@@ -6,6 +6,7 @@
     <title>Project from VLASOV KIRILL</title>
     <link href="assets/styles/reset.css" rel="stylesheet">
     <link href="assets/styles/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link href="assets/styles/header.css" rel="stylesheet">
     <link href="assets/styles/components.css" rel="stylesheet">
     <link href="assets/styles/footer.css" rel="stylesheet">
@@ -17,46 +18,24 @@
 <body>
 <header class="header" id="header">
     <div class="header-image">
-        <img alt="Эмблема сайта-1" src="assets/images/logo.svg">
+        <img alt="Эмблема сайта-1" src="assets/images/logo.svg" class="h-image">
     </div>
-    <div class="navigation">
-        <a href="index.html">Главная</a>
-        <a href="index.html">Сеансы</a>
-        <a href="index.html">Отзывы</a>
-        <a href="index.html">Контакты</a>
-        <a href="index.html">Новости</a>
-        <a href="index.html">Обо мне</a>
-        <a href="index.html">Блог</a>
-    </div>
-    <div class="registration">
-        <a href="index.html">Записаться на сеанс</a>
-    </div>
-<!--    <div class="navigation-open">-->
-<!--        <ul>-->
-<!--            <li class="burger-list">-->
-<!--                <a href="index.html">Главная</a>-->
-<!--            </li>-->
-<!--            <li class="burger-list">-->
-<!--                <a href="index.html">Сеансы</a>-->
-<!--            </li>-->
-<!--            <li class="burger-list">-->
-<!--                <a href="index.html">Отзывы</a>-->
-<!--            </li>-->
-<!--            <li class="burger-list">-->
-<!--                <a href="index.html">Контакты</a>-->
-<!--            </li>-->
-<!--            <li class="burger-list">-->
-<!--                <a href="index.html">Новости</a>-->
-<!--            </li>-->
-<!--            <li class="burger-list">-->
-<!--                <a href="index.html">Обо мне</a>-->
-<!--            </li>-->
-<!--            <li class="burger-list">-->
-<!--                <a href="index.html">Блог</a>-->
-<!--            </li>-->
-<!--            <a href="index.html">Записаться на сеанс</a>-->
-<!--        </ul>-->
-<!--    </div>-->
+
+    <nav class="navigation">
+        <div class="navigation-list">
+            <a href="index.html">Главная</a>
+            <a href="index.html">Сеансы</a>
+            <a href="index.html">Отзывы</a>
+            <a href="index.html">Контакты</a>
+            <a href="index.html">Новости</a>
+            <a href="index.html">Обо мне</a>
+            <a href="index.html">Блог</a>
+        </div>
+        <div class="registration">
+            <a href="index.html">Записаться на сеанс</a>
+        </div>
+    </nav>
+
     <div class="header-burger" id="header-burger">
         <div class="burgerline-one"></div>
         <div class="burgerline-two"></div>
@@ -116,27 +95,47 @@
         <img alt="лепесток справа" class="front-image-two" src="assets/images/front-image2.png">
     </div>
 
-    <div class="reviews-one">
-        <div class="title-reviews">
-            <h3>Кира Иванова</h3>
-        </div>
-        <div class="description-reviews-one">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi
-                orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh
-                donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
-            <p>Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus
-                orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa.
-                Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in
-                egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia
-                venenatis.</p>
+    <div class="slider">
+        <div class="reviews-one">
+            <div class="title-reviews">
+                <h3>Кира Иванова</h3>
+            </div>
+            <div class="description-reviews-one">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi
+                    orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh
+                    donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
+                <p>Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus
+                    orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa.
+                    Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in
+                    egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia
+                    venenatis.</p>
+            </div>
         </div>
     </div>
     <div class="slider">
-        <div class="slider-reviews-one"></div>
-        <div class="slider-reviews"></div>
-        <div class="slider-reviews"></div>
-        <div class="slider-reviews"></div>
+        <div class="reviews-one">
+            <div class="title-reviews">
+                <h3>Кира Иванова</h3>
+            </div>
+            <div class="description-reviews-one">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi
+                    orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh
+                    donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
+                <p>Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus
+                    orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa.
+                    Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in
+                    egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia
+                    venenatis.</p>
+            </div>
+        </div>
     </div>
+
+<!--    <div class="slider">-->
+<!--        <div class="slider-reviews-one"></div>-->
+<!--        <div class="slider-reviews"></div>-->
+<!--        <div class="slider-reviews"></div>-->
+<!--        <div class="slider-reviews"></div>-->
+<!--    </div>-->
 
     <div class="h2-title">
         <img alt="лепесток слева" src="assets/images/front-image2.png">
@@ -357,7 +356,9 @@
 
             }
         });
-// здесь добавить слайдер (код)
+        $('.slider').slick({
+            arrows: false,
+        });
     });
 </script>
 

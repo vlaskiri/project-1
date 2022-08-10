@@ -137,11 +137,12 @@ main {
 .reviews-one {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 60px auto 150px;
     max-width: 640px;
     min-height: 350px;
     background-color: #018ABE;
     border-radius: 10px;
+
 }
 .title-reviews {
     display: flex;
@@ -163,29 +164,29 @@ main {
 .description-reviews-one p {
     margin-bottom: 20px;
 }
-.slider {
-    display: flex;
-    justify-content: space-between;
-    margin: 60px auto 150px;
-    width: 100px;
-}
-.slider-reviews {
-    content: '';
-    width: 15px;
-    height: 15px;
-    background-color: #FFFFFF;
-    border-radius: 3px;
-    display: flex;
-    opacity: 0.4;
-}
-.slider-reviews-one {
-    content: '';
-    width: 15px;
-    height: 15px;
-    background-color: #FFFFFF;
-    border-radius: 3px;
-    display: flex;
-}
+/*.slider {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    margin: 60px auto 150px;*/
+/*    width: 100px;*/
+/*}*/
+/*.slider-reviews {*/
+/*    content: '';*/
+/*    width: 15px;*/
+/*    height: 15px;*/
+/*    background-color: #FFFFFF;*/
+/*    border-radius: 3px;*/
+/*    display: flex;*/
+/*    opacity: 0.4;*/
+/*}*/
+/*.slider-reviews-one {*/
+/*    content: '';*/
+/*    width: 15px;*/
+/*    height: 15px;*/
+/*    background-color: #FFFFFF;*/
+/*    border-radius: 3px;*/
+/*    display: flex;*/
+/*}*/
 .info-rs {
     max-width: 1100px;
     min-height: 870px;
