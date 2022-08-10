@@ -13,12 +13,13 @@
     .navigation {
         position: absolute;
         right: 0;
-        top: 80px;
+        top: 90px;
         transform: translateX(100%);
         background-color: #162831;
         flex-direction: column;
         padding: 15px;
-        height: calc(100vh - 73px);
+        height: calc(100vh - 90px);
+        transition: all 0.3s ease-out 0s;
     }
     .navigation-list {
         flex-direction: column;
@@ -30,7 +31,7 @@
         margin: auto;
     }
     .navigation-list a {
-        padding: 5px;
+        padding: 15px;
     }
     .header-burger {
         display: flex;

@@ -349,11 +349,11 @@
         $("#header-burger").click(() => {
             if ($("#header").hasClass("is--open")){
                 $("#header").removeClass("is--open");
-                // $("#")
+                $("#header-burger").removeClass("is--open");
             }
             else {
                 $("#header").addClass("is--open");
-
+                $("#header-burger").addClass("is--open");
             }
         });
         $('.slider').slick({
