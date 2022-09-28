@@ -2,11 +2,12 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
     <title>Project from VLASOV KIRILL</title>
     <link href="assets/styles/reset.css" rel="stylesheet">
     <link href="assets/styles/main.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" type="text/css">
     <link href="assets/styles/header.css" rel="stylesheet">
     <link href="assets/styles/components.css" rel="stylesheet">
     <link href="assets/styles/footer.css" rel="stylesheet">
@@ -15,10 +16,13 @@
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
 <header class="header" id="header">
+
     <div class="header-image">
-        <img alt="Эмблема сайта-1" src="assets/images/logo.svg" class="h-image">
+        <img alt="Эмблема сайта-1" class="h-image" src="assets/images/logo.svg">
     </div>
 
     <nav class="navigation">
@@ -37,218 +41,231 @@
     </nav>
 
     <div class="header-burger" id="header-burger">
-        <div class="burgerline-one"></div>
-        <div class="burgerline-two"></div>
-        <div class="burgerline-three"></div>
+        <div class="burger-line-one"></div>
+        <div class="burger-line-two"></div>
+        <div class="burger-line-three"></div>
     </div>
+
 </header>
 
 <main>
-    <div class="main-image">
+
+    <section class="welcome-image">
         <img alt="акватерапия" src="assets/images/front-image.png">
-        <div class="front-title">
+        <article class="front-title">
             <div class="front-title-top">
-                <img alt="лепесток слева" src="assets/images/front-image1.png">
-                <span>Укрепление здоровья</span>
-                <img alt="лепесток справа" class="front-image-one" src="assets/images/front-image1.png">
+                <img alt="лепесток слева" class="section-title__icon petal--left" src="assets/images/front-image1.png">
+                <span class="front-title__text text-top">Укрепление здоровья</span>
+                <img alt="лепесток справа" class="section-title__icon petal--right" src="assets/images/front-image1.png">
             </div>
-                <span class="front-title-bottom">Акватерапия RitmStyle</span>
-        </div>
-    </div>
+            <span class="front-title__text text-bottom">Акватерапия RitmStyle</span>
+        </article>
+    </section>
 
-    <div class="h2-title">
-        <img alt="лепесток слева" src="assets/images/front-image2.png">
-        <h2>Сеансы RitmStyle</h2>
-        <img alt="лепесток справа" class="front-image-two" src="assets/images/front-image2.png">
-    </div>
+    <section id="session-ritm-style">
+        <article class="section-title">
+            <img alt="лепесток слева" class="section-title__icon petal--left" src="assets/images/front-image2.png">
+            <h2 class="section-title__text">Сеансы RitmStyle</h2>
+            <img alt="лепесток справа" class="section-title__icon petal--right" src="assets/images/front-image2.png">
+        </article>
+        <article class="session-variation">
+            <div class="standart">
+                <a href="index.html">Стандартный RitmStyle</a>
+                <div class="standart-line"></div>
+            </div>
+            <div class="variation">
+                <div class="session-ritm-style">
+                    <a href="index.html">RitmStyle для пар</a>
+                    <div class="session-ritm-style-line"></div>
+                </div>
+                <div class="session-ritm-style">
+                    <a href="index.html">RitmStyle для беременных</a>
+                    <div class="session-ritm-style-line"></div>
+                </div>
+            </div>
+            <div class="variation">
+                <article class="session-ritm-style">
+                    <a href="index.html">RitmStyle с полным погружением под воду</a>
+                    <div class="session-ritm-style-line"></div>
+                </article>
+                <article class="session-ritm-style">
+                    <a href="index.html">RitmStyle + красочная подводная фотосессия</a>
+                    <div class="session-ritm-style-line"></div>
+                </article>
+            </div>
+        </article>
+    </section>
 
-    <div class="session-variation">
-        <div class="standart">
-            <a href="index.html">Стандартный RitmStyle</a>
-            <div class="standart-line"></div>
+    <section id="slider">
+        <div class="section-title">
+            <img alt="лепесток слева" class="section-title__icon petal--left" src="assets/images/front-image2.png">
+            <h2 class="section-title__text">Отзывы</h2>
+            <img alt="лепесток справа" class="section-title__icon petal--right" src="assets/images/front-image2.png">
         </div>
-        <div class="variation">
-            <div class="session-rs">
-                <a href="index.html">RitmStyle для пар</a>
-                <div class="session-rs-line"></div>
+        <div class="slider">
+            <div class="slider-slide">
+                <article class="reviews-one">
+                    <div class="title-reviews">
+                        <h3>Menma Brigs</h3>
+                    </div>
+                    <div class="description-reviews">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum.
+                            Urna mi
+                            orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla
+                            enim nibh
+                            donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
+                        <p>Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum
+                            phasellus
+                            orci.</p>
+                    </div>
+                </article>
             </div>
-            <div class="session-rs">
-                <a href="index.html">RitmStyle для беременных</a>
-                <div class="session-rs-line"></div>
+            <div class="slider-slide">
+                <div class="reviews-two">
+                    <div class="title-reviews">
+                        <h3>Julia Princess</h3>
+                    </div>
+                    <div class="description-reviews">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum.
+                            Urna mi
+                            orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla
+                            enim nibh
+                            donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
+                        <p>Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum
+                            phasellus
+                            orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa.
+                            Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum
+                            in
+                            egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel
+                            lacinia
+                            venenatis.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="variation">
-            <article class="session-rs">
-                <a href="index.html">RitmStyle с полным погружением под воду</a>
-                <div class="session-rs-line"></div>
+    </section>
+
+    <section id="about-ritm-style">
+        <article class="section-title">
+            <img alt="лепесток слева" class="section-title__icon petal--left" src="assets/images/front-image2.png">
+            <h2 class="section-title__text">Об RitmStyle</h2>
+            <img alt="лепесток справа" class="section-title__icon petal--right" src="assets/images/front-image2.png">
+        </article>
+        <section class="about-ritm-style">
+            <article class="about-info">
+                <div class="about-ritm-style__text">
+                    <h3>RitmStyle массаж</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus, sed tellus eget mattis nibh
+                        quam. Eu ornare nunc, id est. Erat consectetur etiam a sit diam in imperdiet amet. Diam nisl, ipsum
+                        suscipit amet. Eleifend amet habitasse proin quis adipiscing.</p>
+                    <p>Nisl convallis mauris in consequat. Sit ac vitae posuere maecenas dictumst quam. Felis amet diam, non
+                        augue massa. Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant tortor at tempor.</p>
+                </div>
+                <div class="about-ritm-style__image">
+                    <img alt="девушка под водой" src="assets/images/session-black.png">
+                </div>
             </article>
-            <article class="session-rs">
-                <a href="index.html">RitmStyle + красочная подводная фотосессия</a>
-                <div class="session-rs-line"></div>
+
+            <article class="about-info">
+                <div class="about-ritm-style__image">
+                    <img alt="девушка под водой" src="assets/images/session-black.png">
+                </div>
+                <div class="about-ritm-style__text">
+                    <h3>RitmStyle гидротерапия</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu cras quis ac a non ut viverra turpis
+                        eget.
+                        Hendrerit quis pulvinar massa ipsum sem. Donec posuere nulla enim non neque etiam. Eros arcu,
+                        pulvinar
+                        penatibus luctus ridiculus sagittis vel nunc hac. Nisi, diam tincidunt dui viverra. Eget quis
+                        ultricies
+                        sem nunc risus senectus luctus ultricies. Enim feugiat pharetra pharetra et.</p>
+                    <p>Pulvinar arcu at morbi posuere cursus. Fermentum est sit enim velit ornare molestie. Ipsum nisi id
+                        sed
+                        tempor elementum. Mi nunc eget pellentesque ipsum. Suspendisse risus a id vel massa tincidunt.
+                        Hendrerit
+                        blandit in augue vel mi quam magna egestas. Fringilla ac lacus viverra ullamcorper leo, enim vitae
+                        id
+                        aliquam. Magna sed tristique tellus enim, netus tempor at elit dui. Ullamcorper hendrerit feugiat
+                        libero
+                        tellus diam egestas dui tellus odio.</p>
+                </div>
+            </article>
+        </section>
+    </section>
+
+    <section id="price">
+        <div class="section-title">
+            <img alt="лепесток слева" class="section-title__icon petal--left" src="assets/images/front-image2.png">
+            <h2 class="section-title__text">Стоимость сеансов</h2>
+            <img alt="лепесток справа" class="section-title__icon petal--right" src="assets/images/front-image2.png">
+        </div>
+        <div class="price">
+            <div class="description-currency">
+                <div class="table-row">
+                    <div class="table-column description">
+                        <div>
+                            <img alt="лепесток слева" class="price-icon-petal" src="assets/images/front-image2.png">
+                        </div>
+                        <span>RitmStyle с погружением</span>
+                    </div>
+                    <div class="table-column">
+                        <span>300грн</span>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-column description">
+                        <div>
+                            <img alt="лепесток слева" class="price-icon-petal" src="assets/images/front-image2.png">
+                        </div>
+                        <span>Абонемент на RitmStyle</span>
+                    </div>
+                    <div class="table-column">
+                        <span>1500грн</span>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-column description">
+                        <div>
+                            <img alt="лепесток слева" class="price-icon-petal" src="assets/images/front-image2.png">
+                        </div>
+                        <span>RitmStyle для пар</span>
+                    </div>
+                    <div class="table-column">
+                        <span>1800грн</span>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-column description">
+                        <div>
+                            <img alt="лепесток слева" class="price-icon-petal" src="assets/images/front-image2.png">
+                        </div>
+                        <span>RitmStyle для беременных</span>
+                    </div>
+                    <div class="table-column">
+                        <span>4000грн</span>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-column description">
+                        <div>
+                            <img alt="лепесток слева" class="price-icon-petal" src="assets/images/front-image2.png">
+                        </div>
+                        <span>RitmStyle + фотосессия</span>
+                    </div>
+                    <div class="table-column">
+                        <span>3000грн</span>
+                    </div>
+                </div>
+            </div>
+
+            <article class="certificate">
+                <img alt="сертификат" src="assets/images/sertificat.png">
+                <span>Подарочный сертификат</span>
             </article>
         </div>
-    </div>
+    </section>
 
-    <div class="h2-title">
-        <img alt="лепесток слева" src="assets/images/front-image2.png">
-        <h2>Отзывы</h2>
-        <img alt="лепесток справа" class="front-image-two" src="assets/images/front-image2.png">
-    </div>
-
-    <div class="slider">
-        <div class="reviews-one">
-            <div class="title-reviews">
-                <h3>Кира Иванова</h3>
-            </div>
-            <div class="description-reviews-one">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi
-                    orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh
-                    donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
-                <p>Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus
-                    orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa.
-                    Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in
-                    egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia
-                    venenatis.</p>
-            </div>
-        </div>
-    </div>
-    <div class="slider">
-        <div class="reviews-one">
-            <div class="title-reviews">
-                <h3>Кира Иванова</h3>
-            </div>
-            <div class="description-reviews-one">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi
-                    orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh
-                    donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
-                <p>Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus
-                    orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa.
-                    Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in
-                    egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia
-                    venenatis.</p>
-            </div>
-        </div>
-    </div>
-
-<!--    <div class="slider">-->
-<!--        <div class="slider-reviews-one"></div>-->
-<!--        <div class="slider-reviews"></div>-->
-<!--        <div class="slider-reviews"></div>-->
-<!--        <div class="slider-reviews"></div>-->
-<!--    </div>-->
-
-    <div class="h2-title">
-        <img alt="лепесток слева" src="assets/images/front-image2.png">
-        <h2>Об RitmStyle</h2>
-        <img alt="лепесток справа" class="front-image-two" src="assets/images/front-image2.png">
-    </div>
-
-    <div class="info-rs">
-        <div class="info">
-            <div class="description-info">
-                <h3>RitmStyle массаж</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in purus, sed tellus eget mattis nibh
-                    quam. Eu ornare nunc, id est. Erat consectetur etiam a sit diam in imperdiet amet. Diam nisl, ipsum
-                    suscipit amet. Eleifend amet habitasse proin quis adipiscing.</p>
-                <p>Nisl convallis mauris in consequat. Sit ac vitae posuere maecenas dictumst quam. Felis amet diam, non
-                    augue massa. Egestas molestie lobortis rhoncus, elit nulla nisl. Habitant tortor at tempor.</p>
-            </div>
-            <div class="image-info">
-                <img alt="девушка под водой" src="assets/images/session-black.png">
-            </div>
-        </div>
-
-        <div class="info">
-            <div class="image-info">
-                <img alt="девушка под водой" src="assets/images/session-black.png">
-            </div>
-            <div class="description-info">
-                <h3>RitmStyle гидротерапия</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu cras quis ac a non ut viverra turpis eget.
-                    Hendrerit quis pulvinar massa ipsum sem. Donec posuere nulla enim non neque etiam. Eros arcu, pulvinar
-                    penatibus luctus ridiculus sagittis vel nunc hac. Nisi, diam tincidunt dui viverra. Eget quis ultricies
-                    sem nunc risus senectus luctus ultricies. Enim feugiat pharetra pharetra et.</p>
-                <p>Pulvinar arcu at morbi posuere cursus. Fermentum est sit enim velit ornare molestie. Ipsum nisi id sed
-                    tempor elementum. Mi nunc eget pellentesque ipsum. Suspendisse risus a id vel massa tincidunt. Hendrerit
-                    blandit in augue vel mi quam magna egestas. Fringilla ac lacus viverra ullamcorper leo, enim vitae id
-                    aliquam. Magna sed tristique tellus enim, netus tempor at elit dui. Ullamcorper hendrerit feugiat libero
-                    tellus diam egestas dui tellus odio.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="h2-title">
-        <img alt="лепесток слева" src="assets/images/front-image2.png">
-        <h2>Стоимость сеансов</h2>
-        <img alt="лепесток справа" class="front-image-two" src="assets/images/front-image2.png">
-    </div>
-
-    <div class="price">
-        <div class="description-currency">
-            <div class="table-row">
-                <div class="table-column description">
-                    <div>
-                        <img alt="лепесток слева" class="img-price-decor" src="assets/images/front-image2.png">
-                    </div>
-                    <span>RitmStyle с погружением</span>
-                </div>
-                <div class="table-column">
-                    <span>300грн</span>
-                </div>
-            </div>
-            <div class="table-row">
-                <div class="table-column description">
-                    <div>
-                        <img alt="лепесток слева" class="img-price-decor" src="assets/images/front-image2.png">
-                    </div>
-                    <span>Абонемент на RitmStyle</span>
-                </div>
-                <div class="table-column">
-                    <span>1500грн</span>
-                </div>
-            </div>
-            <div class="table-row">
-                <div class="table-column description">
-                    <div>
-                        <img alt="лепесток слева" class="img-price-decor" src="assets/images/front-image2.png">
-                    </div>
-                    <span>RitmStyle для пар</span>
-                </div>
-                <div class="table-column">
-                    <span>1800грн</span>
-                </div>
-            </div>
-            <div class="table-row">
-                <div class="table-column description">
-                    <div>
-                        <img alt="лепесток слева" class="img-price-decor" src="assets/images/front-image2.png">
-                    </div>
-                    <span>RitmStyle для беременных</span>
-                </div>
-                <div class="table-column">
-                    <span>4000грн</span>
-                </div>
-            </div>
-            <div class="table-row">
-                <div class="table-column description">
-                    <div>
-                        <img alt="лепесток слева" class="img-price-decor" src="assets/images/front-image2.png">
-                    </div>
-                    <span>RitmStyle + фотосессия</span>
-                </div>
-                <div class="table-column">
-                    <span>3000грн</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="certificate">
-            <img alt="сертификат" src="assets/images/sertificat.png">
-            <span>Подарочный сертификат</span>
-        </div>
-    </div>
-
-    <div class="address">
+    <section class="address">
         <div class="maps">
             <iframe allowfullscreen=""
                     class="img" height="605" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
@@ -256,64 +273,65 @@
                     width="600"></iframe>
         </div>
         <div class="address-info">
-            <div class="waterpool">
-                <div class="wp-title">
+            <article class="waterpool">
+                <div class="waterpool-title">
                     <h3>Бассейн WorkClass</h3>
                 </div>
-                <div class="wp-address pl">
-                    <div class="wp-img-decor">
+                <div class="waterpool-address pl">
+                    <div class="waterpool-icon">
                         <img alt="декор" src="assets/images/maps-img.svg">
                     </div>
-                    <div class="wp-description">
+                    <div class="waterpool-text">
                         <a href="https://goo.gl/maps/NJV3dWXFPdNFE6Kw5">ул. Неманская, 5</a>
                     </div>
                 </div>
-                <div class="wp-address">
+
+                <div class="waterpool-address">
                     <div>
                         <img alt="декор" src="assets/images/metro-img.svg">
                     </div>
-                    <div class="wp-description">
+                    <div class="waterpool-text">
                         <a href="https://goo.gl/maps/8qPbRgbEJcqHx6fbA">м. Дружбы народов</a>
                     </div>
                 </div>
-                <div class="wp-address">
+                <div class="waterpool-address">
                     <div>
                         <img alt="декор" src="assets/images/calendar-img.svg">
                     </div>
-                    <div class="wp-description">
+                    <div class="waterpool-text">
                         <a href="index.html">Запись по договоренности</a>
                     </div>
                 </div>
                 <div class="click">
                     <a href="index.html">Записаться на сеанс</a>
                 </div>
-            </div>
+            </article>
 
             <div class="waterpool">
-                <div class="wp-title">
+                <div class="waterpool-title">
                     <h3>Бассейн "На Кутузова"</h3>
                 </div>
-                <div class="wp-address pl">
-                    <div class="wp-img-decor">
+                <div class="waterpool-address pl">
+                    <div class="waterpool-icon">
                         <img alt="декор" src="assets/images/maps-img.svg">
                     </div>
-                    <div class="wp-description">
+                    <div class="waterpool-text">
                         <a href="https://goo.gl/maps/ZCruQooLhx8io9Dh9">ул. Кутузова, 28</a>
                     </div>
                 </div>
-                <div class="wp-address">
+                <div class="waterpool-address">
                     <div>
                         <img alt="декор" src="assets/images/metro-img.svg">
                     </div>
-                    <div class="wp-description">
+                    <div class="waterpool-text">
                         <a href="https://goo.gl/maps/a52XsZmELJL9XRtx5">м. Печерская</a>
                     </div>
                 </div>
-                <div class="wp-address">
+                <div class="waterpool-address">
                     <div>
                         <img alt="декор" src="assets/images/calendar-img.svg">
                     </div>
-                    <div class="wp-description">
+                    <div class="waterpool-text">
                         <a href="index.html">Запись по договоренности</a>
                     </div>
                 </div>
@@ -322,42 +340,43 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </main>
 
 <footer>
-    <div class="creator">
+    <section class="creator">
         <div class="years">
-            <span>© 2018-2022 RitmStyle</span>
+            <span>© 2022 RitmStyle</span>
         </div>
         <div class="author">
-            <span>Сделано vlaskiri</span>
+            <span>Developed by vlaskiri</span>
         </div>
-    </div>
+    </section>
 </footer>
 
 <script
-        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        crossorigin="anonymous"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-        crossorigin="anonymous">
+        src="https://code.jquery.com/jquery-3.6.0.min.js">
 </script>
 <script
-        type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+        src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" type="text/javascript">
 </script>
 <script>
-    $( document ).ready(function() {
+    $(document).ready(function () {
         $("#header-burger").click(() => {
-            if ($("#header").hasClass("is--open")){
+            if ($("#header").hasClass("is--open")) {
                 $("#header").removeClass("is--open");
                 $("#header-burger").removeClass("is--open");
-            }
-            else {
+            } else {
                 $("#header").addClass("is--open");
                 $("#header-burger").addClass("is--open");
             }
         });
         $('.slider').slick({
             arrows: false,
+            infinite: true,
+            slidesToShow: 1
         });
     });
 </script>

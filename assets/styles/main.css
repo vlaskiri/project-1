@@ -17,13 +17,13 @@ main {
     margin: 70px auto 0;
     max-width: 1300px;
 }
-.main-image {
+.welcome-image {
     text-align: center;
     margin: 50px auto 150px;
     position: relative;
     max-width: 100%;
 }
-.main-image img {
+.welcome-image img {
     max-width: 100%;
 }
 .front-title {
@@ -45,12 +45,12 @@ main {
     margin-bottom: 80px;
     padding: 0 15px;
 }
-.front-image-one, .front-image-two {
+.petal--right {
     transform: scale(1, -1);
     width: 28px;
     height: 14px;
 }
-.front-title-bottom {
+.text-bottom {
     display: block;
     margin: 0 auto;
     padding: 0 15px;
@@ -59,7 +59,7 @@ main {
     text-align: center;
     line-height: 1.4;
 }
-.h2-title {
+.section-title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,7 +100,7 @@ main {
     opacity: 0;
     transition-duration: 0.5s;
 }
-.session-rs {
+.session-ritm-style {
     display: flex;
     background-image: url("../images/session1.png");
     background-size: cover;
@@ -121,7 +121,7 @@ main {
     font-size: 24px;
     padding: 0 40px 30px 40px;
 }
-.session-rs-line {
+.session-ritm-style-line {
     width: 100%;
     margin-top: 250px;
     padding: 5px 0 5px 0;
@@ -131,10 +131,10 @@ main {
     transition-duration: 0.5s;
 }
 .standart:hover .standart-line,
-.session-rs:hover .session-rs-line {
+.session-ritm-style:hover .session-ritm-style-line {
     opacity: 1;
 }
-.reviews-one {
+.reviews-one, .reviews-two {
     display: flex;
     flex-direction: column;
     margin: 60px auto 150px;
@@ -142,7 +142,6 @@ main {
     min-height: 350px;
     background-color: #018ABE;
     border-radius: 10px;
-
 }
 .title-reviews {
     display: flex;
@@ -151,7 +150,7 @@ main {
     font-weight: 700;
     margin: 50px 60px 20px;
 }
-.description-reviews-one {
+.description-reviews {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -161,33 +160,15 @@ main {
     line-height: 140%;
     font-size: 14px;
 }
-.description-reviews-one p {
+.description-reviews p {
     margin-bottom: 20px;
 }
-/*.slider {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    margin: 60px auto 150px;*/
-/*    width: 100px;*/
-/*}*/
-/*.slider-reviews {*/
-/*    content: '';*/
-/*    width: 15px;*/
-/*    height: 15px;*/
-/*    background-color: #FFFFFF;*/
-/*    border-radius: 3px;*/
-/*    display: flex;*/
-/*    opacity: 0.4;*/
-/*}*/
-/*.slider-reviews-one {*/
-/*    content: '';*/
-/*    width: 15px;*/
-/*    height: 15px;*/
-/*    background-color: #FFFFFF;*/
-/*    border-radius: 3px;*/
-/*    display: flex;*/
-/*}*/
-.info-rs {
+.slider {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+}
+.about-ritm-style {
     max-width: 1100px;
     min-height: 870px;
     margin: 0 auto 150px;
@@ -195,7 +176,7 @@ main {
     display: flex;
     flex-direction: column;
 }
-.info {
+.about-info {
     max-width: 100%;
     min-height: 50%;
     gap: 85px;
@@ -203,31 +184,31 @@ main {
     align-items: center;
     justify-content: space-between;
 }
-.description-info {
+.about-ritm-style__text {
     max-width: 40%;
     color: white;
     line-height: 140%;
 }
-.info h3 {
+.about-info h3 {
     max-width: 100%;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 30px;
 }
-.description-info p {
+.about-ritm-style__text p {
     max-width: 100%;
     font-size: 16px;
     font-weight: 300;
     line-height: 140%;
     font-family: "Proxima Nova Thin", sans-serif;
 }
-.description-info p:not(:last-child) {
+.about-ritm-style__text p:not(:last-child) {
     margin-bottom: 10px;
 }
-.image-info {
+.about-ritm-style__image {
     max-width: 50%;
 }
-.image-info img {
+.about-ritm-style__image img {
     max-width: 100%;
 }
 .price {
@@ -239,7 +220,7 @@ main {
     justify-content: space-between;
     align-items: center;
 }
-.img-price-decor {
+.price-icon-petal {
     max-width: 18px;
     margin-right: 20px;
 }
@@ -317,19 +298,19 @@ main {
     border-radius: 10px;
     padding: 30px 45px;
 }
-.wp-title {
+.waterpool-title {
     font-family: "El Messiri", sans-serif;
     font-weight: 700;
     font-size: 24px;
 }
-.wp-address {
+.waterpool-address {
     display: flex;
     gap: 20px;
 }
 .pl {
     padding-left: 3px;
 }
-.wp-description {
+.waterpool-text {
     font-size: 14px;
     font-family: "Proxima Nova Thin", sans-serif;
     color: white;
