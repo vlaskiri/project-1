@@ -49,7 +49,7 @@
 /*.....Media for MAIN.....*/
 /*........main-image........*/
 @media (max-width: 1300px) {
-    .main-image {
+    .welcome-image {
         margin: 30px auto 50px;
         position: relative;
         display: flex;
@@ -57,48 +57,48 @@
     }
 }
 @media (max-width: 992px) {
-    .front-title-top {
-        margin-bottom: 40px;
+    .text-top {
+        /*margin-bottom: 40px;*/
     }
-    .front-title-bottom {
+    .text-bottom {
         line-height: 1.1;
     }
 }
 @media (max-width: 668px) {
-    .front-title-top {
-        margin-bottom: 20px;
+    .text-top {
+        /*margin-bottom: 20px;*/
         gap: 20px;
     }
-    .front-title-bottom {
+    .text-bottom {
         font-size: 30px;
     }
 }
 @media (max-width: 359px) {
-    .front-title-top {
+    .text-top, .text-bottom {
     display: none;
     }
 }
 
 /*......h2-title....*/
 @media (max-width: 768px) {
-    .h2-title {
+    .section-title__text {
         font-size: 35px;
         gap: 35px;
-        margin-bottom: 60px;
+        /*margin-bottom: 60px;*/
     }
 }
 @media (max-width: 430px) {
-    .h2-title {
+    .section-title__text {
         font-size: 22px;
         gap: 15px;
-        margin-bottom: 30px;
+        /*margin-bottom: 30px;*/
     }
 }
 
 /*......session-variation.......*/
 @media (max-width: 1188px) {
     .standart:hover .standart-line,
-    .session-rs:hover .session-rs-line {
+    .session-ritm-style:hover .session-ritm-style-line {
         display: none;
     }
 }
@@ -118,7 +118,7 @@
         width: 100%;
         height: 260px;
     }
-    .session-rs a {
+    .session-ritm-style a {
         padding-bottom: 20px;
     }
     .variation {
@@ -130,7 +130,7 @@
     .session-variation, .variation {
         flex-direction: column;
     }
-    .session-rs {
+    .session-ritm-style {
         background-position: center;
         border-radius: 10px;
     }
@@ -138,31 +138,31 @@
 
 /*........info-rs........*/
 @media (max-width: 992px) {
-    .info h3 {
+    .about-ritm-style__text h3 {
         margin-bottom: 20px;
     }
-    .description-info p {
+    .about-ritm-style__text p {
         font-size: 14px;
     }
 }
 @media (max-width: 768px) {
-    .description-info {
+    .about-ritm-style__text {
         max-width: 100%;
     }
-    .image-info {
+    .about-ritm-style__image {
         max-width: 100%;
     }
-    .info {
+    .about-info {
         flex-direction: column-reverse;
         gap: 20px;
     }
-    .info:not(:first-child) {
+    .about-info:not(:first-child) {
         flex-direction: column;
     }
-    .info h3 {
+    .about-info h3 {
         font-size: 20px;
     }
-    .info-rs {
+    .about-ritm-style {
         gap: 25px;
         margin-bottom: 50px;
     }
@@ -184,7 +184,7 @@
 
 /*........address....*/
 @media (max-width: 1026px) {
-    .wp-title {
+    .waterpool-title {
         font-size: 18px;
     }
 }
@@ -206,7 +206,7 @@
         align-items: center;
         gap: 10px;
     }
-    .wp-address {
+    .waterpool-address {
         flex-direction: column-reverse;
         align-items: center;
         gap: 5px;

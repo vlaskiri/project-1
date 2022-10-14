@@ -79,7 +79,7 @@
     margin-left: auto;
 }
 
-.burgerline-one {
+.burger-line-one {
     width: 100%;
     height: 3px;
     background-color: white;
@@ -87,13 +87,13 @@
     transform: none;
     transition: all 0.3s ease-out 0s;
 }
-.burgerline-two {
+.burger-line-two {
     width: 100%;
     height: 3px;
     background-color: white;
     opacity: 1;
 }
-.burgerline-three {
+.burger-line-three {
     width: 100%;
     height: 3px;
     background-color: white;
